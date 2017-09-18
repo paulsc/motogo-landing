@@ -18,7 +18,7 @@ html {
 
 @font-face {
     font-family: Kimberley;
-    src: url(kimberley.ttf);
+    src: url('/kimberley.ttf') format('truetype');
 }
 
 .button {
