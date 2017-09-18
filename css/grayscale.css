@@ -4,7 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 body {
-  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   position: relative;
   width: 100%;
   height: 100%;
@@ -14,6 +15,14 @@ body {
 html {
   width: 100%;
   height: 100%; }
+
+@font-face {
+    font-family: Kimberley;
+    src: url(kimberley.ttf);
+}
+
+.button {
+}
 
 h1,
 h2,
@@ -25,7 +34,12 @@ h6 {
   font-weight: 700;
   margin: 0 0 35px;
   letter-spacing: 1px;
-  text-transform: uppercase; }
+  /*text-transform: uppercase; */
+}
+
+.kimberley {
+    font-family: Kimberley;
+}
 
 p {
   font-size: 16px;
@@ -41,7 +55,7 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #42DCA3; }
+  color: #fd964e; }
   a:focus, a:hover {
     text-decoration: none;
     color: #1d9b6c; }
